@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const {connectQueues} = require('./queue/queue')
 const Instructor = require('./Model/Instructor')
 
-//this is done in the test branch
+//this is done in the test-2 branch
 
 app.use(express.json());
 mongoose.connect(
